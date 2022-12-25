@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ecommerce Website</title>
+</head>
+<body>
+   
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="logo of the website">
+            </div>
+            <div class="nav">
+                <ul id="Menuitem" >
+                    <li ><a href="index.html"  > Home </a></li>
+                    <li><a href=""> Product </a></li>
+                    <li><a href="" >About</a></li>
+                    <li><a href="" >Contact</a></li>
+                    <li><a href=""> Account </a></li>
+                </ul>
+            </div>
+            <img src="cart.png" alt="cart image" width="30px"  height="30px">
+            <img src="menu.png" alt="cart image" class="menuicon" onclick="menutoggle()">
+        </div>
+    </div>
+    
+
+       
+
+
+<div class="smallcontainer">
+    <div class="row rowproduct">
+        <h2>All Products</h2>
+        <select name="" id="">
+            <option value="
+            Default shorting">Default shorting</option>
+            <option value="
+            short by price">short by price</option>
+            <option value="
+            short by popularity">short by popularity</option>
+            <option value="
+            short by popularity">short by rating</option>
+            
+        </select>
+    </div>
+   <div class="row">
+    <div class="col-4">
+        <img src="product-1.jpg" alt="product-1">
+        <h4>Red Printed T-shirt</h4>
+        <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+        </div>
+        <p> &#8377 300</p>
+    </div>
+
+    <div class="col-4">
+        <img src="product-2.jpg" alt="product-2">
+        <h4>Red Printed T-shirt</h4>
+        <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <p> &#8377 700</p>
+    </div>
+    <div class="col-4">
+        <img src="product-3.jpg" alt="product-3">
+        <h4>Red Printed T-shirt</h4>
+        <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <p> &#8377 800</p>
+    </div>
+    <div class="col-4">
+        <img src="product-4.jpg" alt="product-4">
+        <h4>Red Printed T-shirt</h4>
+        <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+           
+            <i class="fa-regular fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <p> &#8377 350</p>
+    </div>
+    
+   </div>
+   <div class="row">
+    <div class="col-4">
+        <img src="product-5.jpg" alt="product-1">
+        <h4>Red Printed T-shirt</h4>
+        <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+        </div>
+        <p> &#8377 300</p>
+    </div>
+
+    <div class="col-4">
+        <img src="product-6.jpg" alt="product-2">
+        <h4>Red Printed T-shirt</h4>
+        <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <p> &#8377 700</p>
+    </div>
+    <div class="col-4">
+        <img src="product-7.jpg" alt="product-3">
+        <h4>Red Printed T-shirt</h4>
+        <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <p> &#8377 800</p>
+    </div>
+    <div class="col-4">
+        <img src="product-8.jpg" alt="product-4">
+        <h4>Red Printed T-shirt</h4>
+        <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+           
+            <i class="fa-regular fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <p> &#8377 350</p>
+    </div>
+    
+   </div>
+   <div class="row">
+    <div class="col-4">
+        <img src="product-12.jpg" alt="product-1">
+        <h4>Red Printed T-shirt</h4>
+        <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+        </div>
+        <p> &#8377 300</p>
+    </div>
+
+    <div class="col-4">
+        <img src="product-9.jpg" alt="product-2">
+        <h4>Red Printed T-shirt</h4>
+        <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <p> &#8377 700</p>
+    </div>
+    <div class="col-4">
+        <img src="product-10.jpg" alt="product-3">
+        <h4>Red Printed T-shirt</h4>
+        <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <p> &#8377 800</p>
+    </div>
+    <div class="col-4">
+        <img src="product-11.jpg" alt="product-4">
+        <h4>Red Printed T-shirt</h4>
+        <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+           
+            <i class="fa-regular fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <p> &#8377 350</p>
+    </div>
+    
+   </div>
+
+</div>
+
+   </div>
+ 
+
+<!-- fOOTER -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+           <div class="footer-col1">
+            <h3>Download Our App</h3>
+            <p>Donwload App for Andriod and ios mobile phone.</p>
+            <div class="app-logo">
+                <img src="play-store.png" alt="">
+                <img src="app-store.png" alt="">
+            </div>
+           </div>
+           <div class="footer-col2">
+            <img src="logo.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit Lorem </p>
+            </div>
+            <div class="footer-col3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affilate</li>
+                </ul>
+               </div>
+           <div class="footer-col4">
+            <h3>FOLLOW US</h3>
+            <ul>
+                <li>Facebook</li>
+                <li>Twitter </li>
+                <li>Instagram</li>
+                <li>Youtube</li>
+            </ul>
+           </div>
+        </div>
+        <hr>
+        <p id="copyright"> &#169; Copy right Redstore</p>
+    </div>
+</div>
+
+<!-- js for toggle -->
+
+<!-- script>
+    var Menuitem = document.getElementById("Menuitem");
+
+    Menuitem.style.maxHeight = "0px";
+    function menutoggle(){
+        if(Menuitem.style.maxHeight == "0px")
+        {
+            Menuitem.style.maxHeight = "200px"
+        }
+        else
+        {
+            Menuitem.style.maxHeight = "0px"
+        }
+    }
+</script> -->
+<script>
+    var Menuitem = document.getElementById("Menuitem");
+
+Menuitem.style.maxHeight = "0px";
+function menutoggle(){
+    if(Menuitem.style.maxHeight == "0px")
+    {
+        Menuitem.style.maxHeight = "220px"
+    }
+    else
+    {
+        Menuitem.style.maxHeight = "0px"
+    }
+}
+</script>
+
+</body>
+</html>

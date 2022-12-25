@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo img{
+    width: 125px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 1.2em;
+}
+
+.logo{
+    flex: 3;
+}
+
+.nav{
+    flex: 2;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+ a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+.container{
+    margin: auto;
+    padding-left: 1.7em;
+    padding-right: 1.7em;
+    max-width: 1300px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img{
+   max-width: 100%;
+    padding: 0;
+}
+
+.col-2 h1{
+    font-size: 3.2em;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.btn{
+    background: #ff523b;
+    color: #fff;
+    padding: .5em 1.9em;
+    margin: 30px 0;
+    border-radius: 30px;
+   display: inline-block;
+   transition: 0.5s;
+}
+.header{
+    background: radial-gradient(#fff,#ffd6d6);
+}
+.header .row{
+    margin-top: 70px;
+}
+ .btn:hover{
+    background: #563434;
+}
+
+.categories{
+    margin: 70px 0;
+}
+
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.col-3 img{
+    width: 100%;
+}
+
+.smallcontainer{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: 0.5x;
+}
+
+.col-4 img{
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after{
+    content: "";
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position:absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+h4{
+    color: #555;
+    font-weight: normal;
+}
+
+.col-4 p{
+    font-size: .9em;
+}
+.rating .fa-star {
+    color: #ff523b;
+}
+.rating .fa-regular {
+    color: #ff523b;
+}
+
+.col-4:hover{
+    transform: translatey(-5px);
+}
+
+.offer{
+    background: radial-gradient(#fff,#ffd6d6);
+    margin-top: 80px;
+    margin-bottom: 50px;
+    padding: 30px 0s;
+}
+
+.col-2 .offer-img{
+    padding: 50px;
+}
+
+small{
+    color: #555;
+}
+
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: .9em;
+    padding: 60px 0 20px;
+}
+
+.footer p{
+    color: #8a8a8a;
+}
+
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-col1, .footer-col2, .footer-col3, .footer-col4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col1{
+    flex-basis: 30%;
+}
+
+.footer-col2{
+    flex: 1;
+    text-align: center;
+}
+ 
+.footer-col2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col3, .footer-col4{
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.app-logo{
+    
+    margin-top: 20px;
+}
+
+.app-logo img{
+    width: 150px;
+}
+
+#copyright{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.menuicon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+/* product css */
+.rowproduct{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+   
+}
+
+select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+
+select:focus{
+    outline: none;
+}
+
+/* media query for menu */
+
+@media (max-width:800px){
+    .nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+       /* flex-direction: column;
+       align-items: center; */
+       flex-direction: column;
+       align-items: center;
+       overflow: hidden;
+       transition: 0.5s;
+       /* transform: translateX(-5px); */
+       
+    }
+
+     .nav ul li{ 
+       /* display: block; */
+       margin-top: 10px;
+       margin-bottom: 10px;
+     
+       
+     } 
+    .nav ul li a{
+        color: #fff;
+        
+    }
+
+    .menuicon{
+         display: flex; 
+        cursor: pointer;
+    }
+}
+
+ @media (max-width:600px){
+    .row{
+        text-align: center;
+    }
+     .col-2,.col-3,.col-4{
+        flex-basis: 100%;
+
+    } 
+    
+ }
